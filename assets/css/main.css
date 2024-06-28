@@ -1812,7 +1812,7 @@ input, select, textarea {
 
 	ul li {
 		margin: 0em;
-		list-style-position: inside;
+		list-style-position: outside;
 	}
 
 	ol {

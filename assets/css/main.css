@@ -37,6 +37,18 @@ ol, ul {
 	list-style: none;
 }
 
+/* Highlight links */
+a.highlight-link:hover {
+    /* background-color: #FFD700;  /* Change background on hover */
+    color: #5e2ad6;  /* Change text color on hover */
+	text-decoration: underline;  /* Add underline on hover */
+}
+/* Ensure strong tags inside hovered links also change color */
+a.highlight-link:hover b {
+    color: #5e2ad6;  /* Change text color on hover */
+	text-decoration: underline;  /* Add underline on hover */
+}
+
 blockquote, q {
 	quotes: none;
 }
